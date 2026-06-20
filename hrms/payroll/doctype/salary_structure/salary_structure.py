@@ -169,7 +169,7 @@ class SalaryStructure(Document):
 				break
 
 	def sanitize_condition_and_formula_fields(self):
-		for table in ("earnings", "deductions"):
+		for table in ("earnings", "deductions", "employer_contributions"):
 			for row in self.get(table):
 				row.condition = row.condition.strip() if row.condition else ""
 				row.formula = row.formula.strip() if row.formula else ""
@@ -178,7 +178,7 @@ class SalaryStructure(Document):
 
 	def reset_condition_and_formula_fields(self):
 		# set old values (allowing multiline strings for better readability in the doctype form)
-		for table in ("earnings", "deductions"):
+		for table in ("earnings", "deductions", "employer_contributions"):
 			for row in self.get(table):
 				row.condition = row._condition
 				row.formula = row._formula
@@ -373,8 +373,8 @@ def make_salary_slip(
 	as_print: bool = False,
 	print_format: str | None = None,
 	for_preview: int = 0,
-	ignore_permissions: bool = False,
 	lwp_days_corrected: float | None = None,
+	ignore_permissions: bool = False,
 ) -> str | Document:
 	def postprocess(source, target):
 		if employee:
@@ -401,8 +401,8 @@ def make_salary_slip(
 		},
 		target_doc,
 		postprocess,
-		ignore_child_tables=True,
 		ignore_permissions=ignore_permissions,
+		ignore_child_tables=True,
 		cached=True,
 	)
 

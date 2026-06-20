@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-05-24 10:09+0000\n"
-"PO-Revision-Date: 2026-05-25 11:50\n"
+"POT-Creation-Date: 2026-06-14 10:34+0000\n"
+"PO-Revision-Date: 2026-06-15 18:55\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Vietnamese\n"
 "MIME-Version: 1.0\n"
@@ -320,9 +320,9 @@ msgstr "<span style=\"font-size: 18px;\"><b>Danh mục &amp; Báo cáo</b></span
 msgid "<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>"
 msgstr "<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>"
 
-#: hrms/hr/doctype/job_requisition/job_requisition.py:57
-msgid "A Job Requisition for {0} requested by {1} already exists: {2}"
-msgstr "Yêu cầu tuyển dụng cho {0} được yêu cầu bởi {1} đã tồn tại: {2}"
+#: hrms/hr/doctype/job_requisition/job_requisition.js:101
+msgid "A Job Requisition already exists for {0} requested by {1} for the same department.<br> Do you want to continue?"
+msgstr ""
 
 #: hrms/controllers/employee_reminders.py:123
 #: hrms/controllers/employee_reminders.py:216
@@ -525,7 +525,7 @@ msgstr "Cộng ngày nghỉ chưa sử dụng từ kỳ trước"
 msgid "Add unused leaves from previous leave period's allocation to this allocation"
 msgstr "Cộng ngày nghỉ chưa sử dụng từ kỳ phân bổ nghỉ phép trước vào kỳ phân bổ này"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1685
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1675
 msgid "Added tax components from the Salary Component master as the salary structure didn't have any tax component."
 msgstr "Đã thêm thành phần thuế từ danh mục Thành phần lương vì cấu trúc lương không có thành phần thuế nào."
 
@@ -625,7 +625,7 @@ msgstr "Đơn vị tiền tệ Tài khoản tạm ứng {} phải giống với 
 msgid "Advanced Filters"
 msgstr "Bộ lọc nâng cao"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:464
+#: hrms/hr/doctype/expense_claim/expense_claim.py:467
 msgid "All Exchange Gain/Loss amount of {0} has been booked through {1}"
 msgstr "Tất cả số tiền lãi/lỗ tỷ giá của {0} đã được book qua {1}"
 
@@ -870,6 +870,12 @@ msgstr "Phân bổ hàng năm đã vượt quá"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:123
 msgid "Annual CTC"
+msgstr ""
+
+#. Label of the annual_gross_earning (Currency) field in DocType 'Salary
+#. Structure Assignment'
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
+msgid "Annual Gross Earning"
 msgstr ""
 
 #: hrms/setup.py:410
@@ -1143,7 +1149,7 @@ msgstr "Phê duyệt"
 msgid "Approval Status"
 msgstr "Trạng thái phê duyệt"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:198
+#: hrms/hr/doctype/expense_claim/expense_claim.py:201
 msgid "Approval Status must be 'Approved' or 'Rejected'"
 msgstr "Trạng thái phê duyệt phải là 'Đã phê duyệt' hoặc 'Đã từ chối'"
 
@@ -1405,7 +1411,8 @@ msgstr "Cài đặt chấm công"
 msgid "Attendance To Date"
 msgstr "Đến ngày chấm công"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:187
+#: hrms/hr/doctype/attendance_request/attendance_request.py:189
+#: hrms/hr/doctype/attendance_request/attendance_request.py:208
 msgid "Attendance Updated"
 msgstr "Chấm công đã cập nhật"
 
@@ -1457,11 +1464,11 @@ msgstr "Đánh dấu chấm công thành công"
 msgid "Attendance marked successfully."
 msgstr "Điểm danh được đánh dấu thành công."
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:206
+#: hrms/hr/doctype/attendance_request/attendance_request.py:227
 msgid "Attendance not submitted for {0} as it is a Holiday."
 msgstr "Chấm công không được gửi cho {0} vì là ngày lễ."
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:215
+#: hrms/hr/doctype/attendance_request/attendance_request.py:236
 msgid "Attendance not submitted for {0} as {1} is on leave."
 msgstr "Chấm công không được gửi cho {0} vì {1} đang nghỉ phép."
 
@@ -1556,11 +1563,11 @@ msgstr "Đánh giá trung bình của các kỹ năng được thể hiện"
 msgid "Avg Feedback Score"
 msgstr "Điểm phản hồi TB"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:218
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:220
 msgid "Avg Utilization"
 msgstr "Sử dụng TB"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:224
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:226
 msgid "Avg Utilization (Billed Only)"
 msgstr "Sử dụng TB (Chỉ đã lập hóa đơn)"
 
@@ -1658,7 +1665,7 @@ msgstr "Phúc lợi"
 msgid "Bill Amount"
 msgstr "Số tiền thanh toán"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:249
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:251
 msgid "Billed Hours"
 msgstr "Giờ đã lập hóa đơn"
 
@@ -1736,7 +1743,7 @@ msgstr "Ngày thanh toán thưởng không thể là ngày trong quá khứ"
 msgid "Branch: {0}"
 msgstr "Chi nhánh: {0}"
 
-#: hrms/payroll/doctype/salary_structure/salary_structure.js:131
+#: hrms/payroll/doctype/salary_structure/salary_structure.js:137
 msgid "Bulk Assignments"
 msgstr "Phân bổ hàng loạt"
 
@@ -1771,7 +1778,7 @@ msgstr "Theo mặc định, Điểm cuối được tính là trung bình của 
 msgid "CTC"
 msgstr "Chi phí cho công ty"
 
-#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:61
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:62
 msgid "CTC Missing for Employee"
 msgstr ""
 
@@ -1822,11 +1829,11 @@ msgstr "Không thể phân bổ thêm phép nghỉ do giới hạn phân bổ ph
 msgid "Cannot allocate more leaves due to maximum leaves allowed limit of {0} in {1} leave type."
 msgstr "Không thể phân bổ thêm phép nghỉ do giới hạn phép nghỉ tối đa cho phép là {0} trong loại phép {1}."
 
-#: hrms/api/roster.py:134
+#: hrms/api/roster.py:187
 msgid "Cannot break shift after end date"
 msgstr "Không thể chia ca sau ngày kết thúc"
 
-#: hrms/api/roster.py:136
+#: hrms/api/roster.py:189
 msgid "Cannot break shift before start date"
 msgstr "Không thể chia ca trước ngày bắt đầu"
 
@@ -1838,11 +1845,11 @@ msgstr "Không thể hủy Phân ca: {0} vì nó được liên kết với Ch�
 msgid "Cannot cancel Shift Assignment: {0} as it is linked to Employee Checkin: {1}"
 msgstr "Không thể hủy Phân ca: {0} vì nó được liên kết với Checkin nhân viên: {1}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:389
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:380
 msgid "Cannot create Salary Slip for Employee joining after Payroll Period"
 msgstr "Không thể tạo Phiếu lương cho Nhân viên vào sau Kỳ lương"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:392
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:383
 msgid "Cannot create Salary Slip for Employee who has left before Payroll Period"
 msgstr "Không thể tạo Phiếu lương cho Nhân viên đã nghỉ trước Kỳ lương"
 
@@ -1898,11 +1905,15 @@ msgstr "Nghỉ phép ngẫu nhiên"
 msgid "Cause of Grievance"
 msgstr "Nguyên nhân khiếu nại"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:171
+#: hrms/hr/doctype/attendance_request/attendance_request.py:194
+msgid "Changed the Status for Other Half from {0} to {1} via Attendance Request as the status is Half Day"
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:173
 msgid "Changed the status from {0} to {1} and Status for Other Half to {2} via Attendance Request"
 msgstr "Đã thay đổi trạng thái từ {0} thành {1} và Trạng thái cho Nửa còn lại thành {2} qua Yêu cầu chấm công"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:175
+#: hrms/hr/doctype/attendance_request/attendance_request.py:177
 msgid "Changed the status from {0} to {1} via Attendance Request"
 msgstr "Đã thay đổi trạng thái từ {0} thành {1} qua Yêu cầu chấm công"
 
@@ -2053,7 +2064,7 @@ msgstr "Đóng vào:"
 msgid "Closing Notes"
 msgstr "Ghi chú đóng"
 
-#: frontend/src/views/Profile.vue:177
+#: frontend/src/views/Profile.vue:178
 msgid "Company Information"
 msgstr "Thông tin công ty"
 
@@ -2300,7 +2311,7 @@ msgstr "Tiêu chí dựa trên đó nhân viên sẽ được đánh giá trong 
 msgid "Currency "
 msgstr "Tiền tệ "
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:128
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:163
 msgid "Currency of selected Income Tax Slab should be {0} instead of {1}"
 msgstr "Tiền tệ của Bậc thuế thu nhập đã chọn phải là {0} thay vì {1}"
 
@@ -2343,6 +2354,10 @@ msgstr "Giá trị đồng hồ đo đường hiện tại "
 #: hrms/hr/doctype/staffing_plan_detail/staffing_plan_detail.json
 msgid "Current Openings"
 msgstr "Vị trí hiện tại"
+
+#: frontend/src/views/ChangePassword.vue:22
+msgid "Current Password"
+msgstr ""
 
 #. Label of the current_payroll_period (Link) field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
@@ -2593,7 +2608,7 @@ msgstr "Người phê duyệt phòng ban"
 msgid "Department Wise Openings"
 msgstr "Vị trí theo phòng ban"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:157
+#: hrms/hr/doctype/expense_claim/expense_claim.py:160
 msgid "Department {0} does not belong to company: {1}"
 msgstr "Phòng ban {0} không thuộc công ty: {1}"
 
@@ -2653,7 +2668,7 @@ msgstr "Vô hiệu hóa {0} cho thành phần {1}, để ngăn số tiền bị 
 msgid "Disable {0} or {1} to proceed."
 msgstr "Vô hiệu hóa {0} hoặc {1} để tiếp tục."
 
-#: frontend/src/views/AppSettings.vue:40
+#: frontend/src/views/AppSettings.vue:65
 msgid "Disabling Push Notifications..."
 msgstr "Đang tắt thông báo đẩy..."
 
@@ -2702,10 +2717,6 @@ msgstr "Chấm công trùng lặp"
 #: hrms/payroll/doctype/employee_benefit_claim/employee_benefit_claim.py:79
 msgid "Duplicate Claim Detected"
 msgstr "Phát hiện yêu cầu trùng lặp"
-
-#: hrms/hr/doctype/job_requisition/job_requisition.py:62
-msgid "Duplicate Job Requisition"
-msgstr "Yêu cầu tuyển dụng trùng lặp"
 
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:66
 msgid "Duplicate Leave Adjustment"
@@ -3011,7 +3022,7 @@ msgstr "Trung tâm chi phí nhân viên"
 #. Other Income'
 #. Label of the section_break_24 (Section Break) field in DocType 'Payroll
 #. Entry'
-#: frontend/src/views/Profile.vue:165
+#: frontend/src/views/Profile.vue:166
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.json
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 #: hrms/hr/doctype/exit_interview/exit_interview.json
@@ -3412,11 +3423,11 @@ msgstr "Nhân viên được đánh dấu Vắng mặt do không đạt ngưỡn
 msgid "Employee was marked Absent for other half due to missing Employee Checkins."
 msgstr "Nhân viên được đánh dấu Vắng mặt nửa ca còn lại do thiếu Checkin nhân viên."
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:480
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:479
 msgid "Employee {0} : {1}"
 msgstr "Nhân viên {0} : {1}"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:133
+#: hrms/hr/doctype/attendance_request/attendance_request.py:135
 msgid "Employee {0} already has an Attendance Request {1} that overlaps with this period"
 msgstr "Nhân viên {0} đã có Yêu cầu chấm công {1} trùng lập với kỳ này"
 
@@ -3428,7 +3439,7 @@ msgstr "Nhân viên {0} đã có Ca đang hoạt động {1}: {2} trùng lập t
 msgid "Employee {0} already submitted an application {1} for the payroll period {2}"
 msgstr "Nhân viên {0} đã gửi đơn {1} cho kỳ lương {2}"
 
-#: hrms/hr/doctype/shift_request/shift_request.py:148
+#: hrms/hr/doctype/shift_request/shift_request.py:149
 msgid "Employee {0} has already applied for Shift {1}: {2} that overlaps within this period"
 msgstr "Nhân viên {0} đã nộp đơn xin Ca {1}: {2} trùng lập trong kỳ này"
 
@@ -3456,7 +3467,7 @@ msgstr "Không tìm thấy nhân viên {0} trong Người tham dự sự kiện 
 msgid "Employee {0} on Half day on {1}"
 msgstr "Nhân viên {0} nghỉ nửa ngày vào {1}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:731
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:738
 msgid "Employee {0} relieved on {1} must be set as 'Left'"
 msgstr "Nhân viên {0} đã thôi việc vào {1} phải được đặt là 'Đã nghỉ'"
 
@@ -3521,6 +3532,17 @@ msgstr "Nhân viên chưa có mục tiêu: {0}"
 msgid "Employees working on a holiday"
 msgstr "Nhân viên làm việc vào ngày lễ"
 
+#. Option for the 'Type' (Select) field in DocType 'Salary Component'
+#: hrms/payroll/doctype/salary_component/salary_component.json
+msgid "Employer Contribution"
+msgstr ""
+
+#. Label of the employer_contributions (Table) field in DocType 'Salary
+#. Structure'
+#: hrms/payroll/doctype/salary_structure/salary_structure.json
+msgid "Employer Contributions"
+msgstr ""
+
 #. Label of the employment_type (Link) field in DocType 'Employee Attendance
 #. Tool'
 #. Name of a DocType
@@ -3557,7 +3579,7 @@ msgstr "Bật đánh dấu về sớm"
 msgid "Enable Late Entry Marking"
 msgstr "Bật đánh dấu đi muộn"
 
-#: frontend/src/views/AppSettings.vue:25
+#: frontend/src/views/AppSettings.vue:50
 msgid "Enable Push Notifications"
 msgstr "Bật thông báo đẩy"
 
@@ -3579,7 +3601,7 @@ msgstr "Bật tùy chọn này để sử dụng hệ số cụ thể cho ngày 
 msgid "Enabled only for Employee Benefit components from Salary Structure Assignment"
 msgstr "Chỉ được bật cho các thành phần phúc lợi nhân viên từ Phân bổ cấu trúc lương"
 
-#: frontend/src/views/AppSettings.vue:40
+#: frontend/src/views/AppSettings.vue:65
 msgid "Enabling Push Notifications..."
 msgstr "Đang bật thông báo đẩy..."
 
@@ -3653,6 +3675,10 @@ msgstr "Nhập số ngày phép bạn muốn phân bổ cho kỳ này."
 msgid "Enter yearly benefit amounts"
 msgstr "Nhập số tiền phúc lợi hàng năm"
 
+#: frontend/src/views/ForgotPassword.vue:22
+msgid "Enter your email address and we'll send you a link to reset your password."
+msgstr ""
+
 #: frontend/src/components/FormField.vue:40
 #: frontend/src/components/FormField.vue:52
 msgid "Enter {0}"
@@ -3670,11 +3696,12 @@ msgstr "Lỗi khi xóa {0}"
 msgid "Error downloading PDF"
 msgstr "Lỗi khi tải PDF"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1407
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1397
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:400
 msgid "Error in formula or condition"
 msgstr "Lỗi trong công thức hoặc điều kiện"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2630
+#: hrms/payroll/doctype/income_tax_slab/income_tax_slab.py:128
 msgid "Error in formula or condition: {0} in Income Tax Slab"
 msgstr "Lỗi trong công thức hoặc điều kiện: {0} trong Bậc thuế thu nhập"
 
@@ -3686,7 +3713,7 @@ msgstr "Lỗi trong một số hàng"
 msgid "Error updating {0}"
 msgstr "Lỗi khi cập nhật {0}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2709
+#: hrms/payroll/utils.py:134
 msgid "Error while evaluating the {doctype} {doclink} at row {row_id}. <br><br> <b>Error:</b> {error} <br><br> <b>Hint:</b> {description}"
 msgstr "Lỗi khi đánh giá {doctype} {doclink} tại hàng {row_id}. <br><br> <b>Lỗi:</b> {error} <br><br> <b>Gợi ý:</b> {description}"
 
@@ -3988,7 +4015,7 @@ msgstr "Tóm tắt yêu cầu hoàn chi"
 #. Label of the expense_type (Data) field in DocType 'Expense Claim Type'
 #. Label of a Link in the Expenses Workspace
 #. Label of a Workspace Sidebar Item
-#: hrms/hr/doctype/expense_claim/expense_claim.py:662
+#: hrms/hr/doctype/expense_claim/expense_claim.py:665
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.json
 #: hrms/hr/workspace/expenses/expenses.json
@@ -4093,9 +4120,13 @@ msgstr "Không thể tạo/gửi {0} cho nhân viên:"
 msgid "Failed to delete defaults for country {0}."
 msgstr "Không thể xóa mặc định cho quốc gia {0}."
 
-#: hrms/api/__init__.py:784
+#: hrms/api/__init__.py:796
 msgid "Failed to download PDF: {0}"
 msgstr "Không thể tải PDF: {0}"
+
+#: frontend/src/views/ForgotPassword.vue:83
+msgid "Failed to send reset link"
+msgstr ""
 
 #: hrms/hr/doctype/interview/interview.py:146
 msgid "Failed to send the Interview Reschedule notification. Please configure your email account."
@@ -4109,7 +4140,11 @@ msgstr "Không thể thiết lập mặc định cho quốc gia {0}."
 msgid "Failed to submit some leave policy assignments:"
 msgstr "Không thể gửi một số phân bổ chính sách nghỉ phép:"
 
-#: hrms/hr/doctype/interview/interview.py:237
+#: frontend/src/views/ChangePassword.vue:94
+msgid "Failed to update password"
+msgstr "Không cập nhật được mật khẩu"
+
+#: hrms/hr/doctype/interview/interview.py:239
 msgid "Failed to update the Job Applicant status"
 msgstr "Không thể cập nhật trạng thái Ứng viên"
 
@@ -4363,7 +4398,7 @@ msgstr "Cho một ngày nghỉ phép, nếu bạn vẫn trả (ví dụ) 50% lư
 msgid "Formula"
 msgstr "Công thức"
 
-#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:227
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:229
 msgid "Formula/Amount"
 msgstr ""
 
@@ -4407,7 +4442,7 @@ msgstr "Từ ngày phải trước Đến ngày"
 msgid "From Date {0} cannot be after Payroll Period end date {1}"
 msgstr "Từ ngày {0} không thể sau ngày kết thúc Kỳ lương {1}"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:93
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:128
 msgid "From Date {0} cannot be after employee's relieving Date {1}"
 msgstr "Từ ngày {0} không thể sau Ngày thôi việc của nhân viên {1}"
 
@@ -4415,7 +4450,7 @@ msgstr "Từ ngày {0} không thể sau Ngày thôi việc của nhân viên {1}
 msgid "From Date {0} cannot be before Payroll Period start date {1}"
 msgstr "Từ ngày {0} không thể trước ngày bắt đầu Kỳ lương {1}"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:85
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:120
 msgid "From Date {0} cannot be before employee's joining Date {1}"
 msgstr "Từ ngày {0} không thể trước Ngày vào làm của nhân viên {1}"
 
@@ -4561,7 +4596,7 @@ msgstr "Không gluten"
 msgid "Go to Login"
 msgstr "Đến trang đăng nhập"
 
-#: frontend/src/views/Login.vue:72
+#: frontend/src/views/Login.vue:29
 msgid "Go to Reset Password page"
 msgstr "Đến trang đặt lại mật khẩu"
 
@@ -4729,6 +4764,8 @@ msgstr "Cài đặt Nhân sự & Lương"
 #. Label of a Link in the HR Setup Workspace
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 #: hrms/hr/doctype/leave_application/leave_application.py:211
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:37
+#: hrms/hr/report/project_profitability/project_profitability.py:103
 #: hrms/hr/workspace/hr_setup/hr_setup.json
 msgid "HR Settings"
 msgstr "Cài đặt nhân sự"
@@ -4897,15 +4934,15 @@ msgstr "Lương theo giờ (Tiền tệ công ty)"
 msgid "Hourly Rate"
 msgstr "Lương theo giờ"
 
-#: hrms/regional/india/utils.py:184
+#: hrms/regional/india/utils.py:183
 msgid "House rent paid days overlapping with {0}"
 msgstr "Ngày trả tiền thuê nhà trùng lặp với {0}"
 
-#: hrms/regional/india/utils.py:162
+#: hrms/regional/india/utils.py:161
 msgid "House rented dates required for exemption calculation"
 msgstr "Ngày thuê nhà bắt buộc để tính miễn thuế"
 
-#: hrms/regional/india/utils.py:165
+#: hrms/regional/india/utils.py:164
 msgid "House rented dates should be atleast 15 days apart"
 msgstr "Ngày thuê nhà phải cách nhau ít nhất 15 ngày"
 
@@ -5179,7 +5216,7 @@ msgstr "Khấu trừ thuế thu nhập"
 #. Label of a Workspace Sidebar Item
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
 #: hrms/payroll/doctype/income_tax_slab/income_tax_slab.json
-#: hrms/payroll/doctype/salary_structure/salary_structure.js:142
+#: hrms/payroll/doctype/salary_structure/salary_structure.js:148
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.py:623
 #: hrms/payroll/workspace/payroll/payroll.json
@@ -5193,15 +5230,15 @@ msgstr "Bậc thuế thu nhập"
 msgid "Income Tax Slab Other Charges"
 msgstr "Phí khác bậc thuế thu nhập"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:113
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:148
 msgid "Income Tax Slab is mandatory since the Salary Structure {0} has a tax component {1}"
 msgstr "Bậc thuế thu nhập là bắt buộc vì Cấu trúc lương {0} có thành phần thuế {1}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1962
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1952
 msgid "Income Tax Slab must be effective on or before Payroll Period Start Date: {0}"
 msgstr "Bậc thuế thu nhập phải có hiệu lực vào hoặc trước Ngày bắt đầu Kỳ lương: {0}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1950
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1940
 msgid "Income Tax Slab not set in Salary Structure Assignment: {0}"
 msgstr "Bậc thuế thu nhập chưa được đặt trong Phân bổ cấu trúc lương: {0}"
 
@@ -5209,7 +5246,7 @@ msgstr "Bậc thuế thu nhập chưa được đặt trong Phân bổ cấu tr�
 msgid "Income Tax Slab: "
 msgstr "Bậc thuế thu nhập: "
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1958
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1948
 msgid "Income Tax Slab: {0} is disabled"
 msgstr "Bậc thuế thu nhập: {0} bị vô hiệu hóa"
 
@@ -5315,7 +5352,7 @@ msgstr "Phản hồi phỏng vấn"
 msgid "Interview Feedback Reminder"
 msgstr "Nhắc nhở phản hồi phỏng vấn"
 
-#: hrms/hr/doctype/interview/interview.py:372
+#: hrms/hr/doctype/interview/interview.py:374
 msgid "Interview Feedback {0} submitted successfully"
 msgstr "Phản hồi phỏng vấn {0} đã gửi thành công"
 
@@ -5445,7 +5482,7 @@ msgstr "Số tiền phúc lợi không hợp lệ"
 msgid "Invalid Dates"
 msgstr "Ngày không hợp lệ"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2741
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2642
 msgid "Invalid LWP Days Reversed"
 msgstr "Ngày LWP được đảo ngược không hợp lệ"
 
@@ -5462,9 +5499,17 @@ msgstr "Tài khoản phải trả lương không hợp lệ. Tiền tệ tài kh
 msgid "Invalid Shift Times"
 msgstr "Giờ ca không hợp lệ"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:876
+#: hrms/api/roster.py:31
+msgid "Invalid employee filter: {0}"
+msgstr ""
+
+#: hrms/hr/doctype/expense_claim/expense_claim.py:879
 msgid "Invalid parameters provided. Please pass the required arguments."
 msgstr "Tham số không hợp lệ. Vui lòng cung cấp các đối số bắt buộc."
+
+#: hrms/api/roster.py:40
+msgid "Invalid shift filter: {0}"
+msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
@@ -5687,7 +5732,7 @@ msgstr "Đề nghị tuyển dụng: {0} đã dành cho ứng viên: {1}"
 msgid "Job Opening"
 msgstr "Vị trí tuyển dụng"
 
-#: hrms/hr/doctype/job_requisition/job_requisition.py:78
+#: hrms/hr/doctype/job_requisition/job_requisition.py:68
 msgid "Job Opening Associated"
 msgstr "Vị trí tuyển dụng liên kết"
 
@@ -5724,7 +5769,7 @@ msgstr ""
 msgid "Job Requisition"
 msgstr "Yêu cầu tuyển dụng"
 
-#: hrms/hr/doctype/job_requisition/job_requisition.py:75
+#: hrms/hr/doctype/job_requisition/job_requisition.py:65
 msgid "Job Requisition {0} has been associated with Job Opening {1}"
 msgstr "Yêu cầu tuyển dụng {0} đã được liên kết với Vị trí tuyển dụng {1}"
 
@@ -5809,7 +5854,7 @@ msgstr "Lĩnh vực trách nhiệm chính"
 msgid "Key Result Area"
 msgstr "Lĩnh vực kết quả chính"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2738
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2639
 msgid "LWP Days Reversed ({0}) does not match actual Payroll Corrections total ({1}) for employee {2} from {3} to {4}"
 msgstr "Ngày LWP đảo ngược ({0}) không khớp với tổng Điều chỉnh lương thực tế ({1}) cho nhân viên {2} từ {3} đến {4}"
 
@@ -6226,7 +6271,7 @@ msgstr "Loại nghỉ phép {0} không thể thanh toán"
 msgid "Leave Without Pay"
 msgstr "Nghỉ phép không lương"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:596
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:603
 msgid "Leave Without Pay does not match with approved {} records"
 msgstr "Nghỉ phép không lương không khớp với bản ghi đã phê duyệt {}"
 
@@ -6406,7 +6451,7 @@ msgstr "Vị trí / Mã thiết bị"
 msgid "Lodging Required"
 msgstr "Yêu cầu lưu trú"
 
-#: frontend/src/views/Profile.vue:107
+#: frontend/src/views/Profile.vue:106
 msgid "Log Out"
 msgstr "Đăng xuất"
 
@@ -6424,7 +6469,7 @@ msgstr "Loại log là bắt buộc cho check-ins thuộc ca: {0}."
 msgid "Login Failed"
 msgstr "Đăng nhập thất bại"
 
-#: frontend/src/views/Login.vue:8
+#: frontend/src/views/Login.vue:38
 msgid "Login to Frappe HR"
 msgstr "Đăng nhập vào Frappe HR"
 
@@ -6460,6 +6505,10 @@ msgstr "Đơn xin phúc lợi bắt buộc"
 #: hrms/public/js/utils/index.js:37
 msgid "Mandatory fields required for this action:"
 msgstr "Các trường bắt buộc cho hành động này:"
+
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.js:213
+msgid "Mandatory fields required in {0}"
+msgstr "Các trường bắt buộc phải có trong {0}"
 
 #. Option for the 'KRA Evaluation Method' (Select) field in DocType 'Appraisal
 #. Cycle'
@@ -6583,7 +6632,7 @@ msgstr "Phúc lợi tối đa (Hàng năm)"
 msgid "Max Exemption Amount"
 msgstr "Số tiền miễn thuế tối đa"
 
-#: hrms/payroll/doctype/employee_tax_exemption_sub_category/employee_tax_exemption_sub_category.py:31
+#: hrms/payroll/doctype/employee_tax_exemption_sub_category/employee_tax_exemption_sub_category.py:32
 msgid "Max Exemption Amount cannot be greater than maximum exemption amount {0} of Tax Exemption Category {1}"
 msgstr "Số tiền miễn thuế tối đa không thể lớn hơn số tiền miễn thuế tối đa {0} của Danh mục miễn thuế {1}"
 
@@ -6709,11 +6758,11 @@ msgstr ""
 msgid "Missing Advance Account"
 msgstr "Thiếu tài khoản tạm ứng"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:119
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:154
 msgid "Missing Mandatory Field"
 msgstr "Thiếu trường bắt buộc"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:201
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:236
 msgid "Missing Opening Entries"
 msgstr "Thiếu bản ghi mở đầu"
 
@@ -6725,11 +6774,11 @@ msgstr "Thiếu ngày thôi việc"
 msgid "Missing Salary Components"
 msgstr "Thiếu thành phần lương"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1953
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1943
 msgid "Missing Tax Slab"
 msgstr "Thiếu bậc thuế"
 
-#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:307
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:313
 msgid "Missing value for filters"
 msgstr ""
 
@@ -6738,7 +6787,7 @@ msgstr ""
 msgid "Mode of Travel"
 msgstr "Phương thức di chuyển"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:481
+#: hrms/hr/doctype/expense_claim/expense_claim.py:484
 msgid "Mode of payment is required to make a payment"
 msgstr "Phương thức thanh toán là bắt buộc để thực hiện thanh toán"
 
@@ -6797,8 +6846,9 @@ msgstr "Nghỉ phép của tôi"
 msgid "My Requests"
 msgstr "Yêu cầu của tôi"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1393
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2625
+#: hrms/payroll/doctype/income_tax_slab/income_tax_slab.py:123
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1383
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:386
 msgid "Name error"
 msgstr "Lỗi tên"
 
@@ -6826,7 +6876,7 @@ msgstr "Lương Ròng (Tiền Tệ Công Ty)"
 msgid "Net Pay Info"
 msgstr "Thông Tin Lương Ròng"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:292
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:283
 msgid "Net Pay cannot be less than 0"
 msgstr "Lương Ròng Không Thể Nhỏ Hơn 0"
 
@@ -6874,6 +6924,10 @@ msgstr "Số Ngày Nghỉ Mới Được Phân Bổ"
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.json
 msgid "New Leaves Allocated (In Days)"
 msgstr "Số Ngày Nghỉ Mới Được Phân Bổ"
+
+#: frontend/src/views/ChangePassword.vue:112
+msgid "New passwords do not match"
+msgstr ""
 
 #. Description of the 'Create Shifts After' (Date) field in DocType 'Shift
 #. Schedule Assignment'
@@ -6953,7 +7007,7 @@ msgstr "Không Tìm Thấy Phân Bổ Cấu Trúc Lương Đang Hoạt Động C
 msgid "No active employee found associated with the email ID {0}. Try logging in with your employee email ID or contact your HR manager for access."
 msgstr "Không Tìm Thấy Nhân Viên Đang Hoạt Động Liên Kết Với ID Email {0}. Hãy Thử Đăng Nhập Bằng Email Nhân Viên Của Bạn Hoặc Liên Hệ Quản Lý HR Để Được Truy Cập."
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:522
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:516
 msgid "No active or default Salary Structure found for employee {0} for the given dates"
 msgstr "Không Tìm Thấy Cấu Trúc Lương Đang Hoạt Động Hoặc Mặc Định Cho Nhân Viên {0} Trong Các Ngày Đã Chỉ Định"
 
@@ -7050,7 +7104,7 @@ msgstr "Không Tìm Thấy Bản Ghi Nghỉ Cho Nhân Viên {0} Vào {1}"
 msgid "No leaves have been allocated."
 msgstr "Chưa Có Ngày Nghỉ Nào Được Phân Bổ."
 
-#: frontend/src/views/Login.vue:53
+#: frontend/src/views/Login.vue:91
 msgid "No login methods are available. Please contact your administrator."
 msgstr "Không Có Phương Thức Đăng Nhập Nào Khả Dụng. Vui Lòng Liên Hệ Quản Trị Viên Của Bạn."
 
@@ -7106,7 +7160,7 @@ msgstr "Không Phải Sổ Tay"
 msgid "Non Taxable Earnings"
 msgstr "Thu Nhập Không Chịu Thuế"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:250
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:252
 msgid "Non-Billed Hours"
 msgstr "Giờ Không Được Thanh Toán"
 
@@ -7134,7 +7188,7 @@ msgstr "Lưu Ý: Ca Sẽ Không Bị Ghi Đè Trong Các Bản Ghi Chấm Công 
 msgid "Note: Total allocated leaves {0} shouldn't be less than already approved leaves {1} for the period"
 msgstr "Lưu Ý: Tổng Số Ngày Nghỉ Được Phân Bổ {0} Không Nên Ít Hơn Số Ngày Nghỉ Đã Duyệt {1} Trong Kỳ"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2262
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2252
 msgid "Note: Your salary slip is password protected, the password to unlock the PDF is of the format {0}."
 msgstr "Lưu Ý: Phiếu Lương Của Bạn Được Bảo Vệ Bằng Mật Khẩu, Mật Khẩu Để Mở File PDF Có Định Dạng {0}."
 
@@ -7193,11 +7247,11 @@ msgstr "Số Chu Kỳ Khấu Trừ"
 msgid "Number of leaves eligible for encashment based on leave type settings"
 msgstr "Số ngày nghỉ đủ điều kiện để quy đổi tiền dựa trên cài đặt loại nghỉ"
 
-#: frontend/src/views/Login.vue:88
+#: frontend/src/views/Login.vue:105
 msgid "OTP Code"
 msgstr "Mã OTP"
 
-#: frontend/src/views/Login.vue:79
+#: frontend/src/views/Login.vue:96
 msgid "OTP Verification"
 msgstr "Xác Minh OTP"
 
@@ -7279,7 +7333,7 @@ msgstr "Hoạt Động Đào Tạo Nhân Viên Mới"
 msgid "Onboarding Begins On"
 msgstr "Đào Tạo Bắt Đầu Từ Ngày"
 
-#: hrms/hr/doctype/shift_request/shift_request.py:115
+#: hrms/hr/doctype/shift_request/shift_request.py:116
 msgid "Only Approvers can Approve this Request."
 msgstr "Chỉ Người Phê Duyệt Mới Có Thể Phê Duyệt Yêu Cầu Này."
 
@@ -7291,7 +7345,7 @@ msgstr "Chỉ Các Tài Liệu Đã Hoàn Thành Mới Có Thể Được Xác N
 msgid "Only Employee Grievance with status {0} or {1} can be submitted"
 msgstr "Chỉ Khiếu Nại Nhân Viên Có Trạng Thái {0} Hoặc {1} Mới Có Thể Được Xác Nhận"
 
-#: hrms/hr/doctype/interview/interview.py:354
+#: hrms/hr/doctype/interview/interview.py:356
 msgid "Only Interviewer Are allowed to submit Interview Feedback"
 msgstr "Chỉ Người Phỏng Vấn Mới Được Phép Nộp Phản Hồi Phỏng Vấn"
 
@@ -7303,7 +7357,7 @@ msgstr "Chỉ Các Phỏng Vấn Có Trạng Thái Đạt Hoặc Từ Chối M�
 msgid "Only Leave Applications with status 'Approved' and 'Rejected' can be submitted"
 msgstr "Chỉ Đơn Xin Nghỉ Phép Có Trạng Thái 'Đã Duyệt' Và 'Từ Chối' Mới Có Thể Được Xác Nhận"
 
-#: hrms/hr/doctype/shift_request/shift_request.py:66
+#: hrms/hr/doctype/shift_request/shift_request.py:67
 msgid "Only Shift Request with status 'Approved' and 'Rejected' can be submitted"
 msgstr "Chỉ Yêu Cầu Ca Với Trạng Thái 'Đã Duyệt' Và 'Từ Chối' Mới Có Thể Được Xác Nhận"
 
@@ -7389,7 +7443,7 @@ msgstr "Phân Bổ Quá Hạn"
 msgid "Overall Average Rating"
 msgstr "Điểm Trung Bình Tổng Thể"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:138
+#: hrms/hr/doctype/attendance_request/attendance_request.py:140
 msgid "Overlapping Attendance Request"
 msgstr "Yêu Cầu Chấm Công Trùng Lặp"
 
@@ -7397,7 +7451,7 @@ msgstr "Yêu Cầu Chấm Công Trùng Lặp"
 msgid "Overlapping Shift Attendance"
 msgstr "Chấm Công Ca Trùng Lặp"
 
-#: hrms/hr/doctype/shift_request/shift_request.py:156
+#: hrms/hr/doctype/shift_request/shift_request.py:157
 msgid "Overlapping Shift Requests"
 msgstr "Yêu Cầu Ca Trùng Lặp"
 
@@ -7455,11 +7509,11 @@ msgstr "Thành Phần Lương Tăng Ca"
 msgid "Overtime Slip"
 msgstr "Phiếu Tăng Ca"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:481
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:480
 msgid "Overtime Slip Creation Error for {0}"
 msgstr "Lỗi Tạo Phiếu Tăng Ca Cho {0}"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:492
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:491
 msgid "Overtime Slip Creation Failed"
 msgstr "Tạo Phiếu Tăng Ca Thất Bại"
 
@@ -7468,19 +7522,19 @@ msgstr "Tạo Phiếu Tăng Ca Thất Bại"
 msgid "Overtime Slip Step"
 msgstr "Bước Phiếu Tăng Ca"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:515
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:514
 msgid "Overtime Slip Submission Error for {0}"
 msgstr "Lỗi Xác Nhận Phiếu Tăng Ca Cho {0}"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:526
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:525
 msgid "Overtime Slip Submission Failed"
 msgstr "Xác Nhận Phiếu Tăng Ca Thất Bại"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:521
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:520
 msgid "Overtime Slip Submitted"
 msgstr "Phiếu Tăng Ca Đã Được Xác Nhận"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:485
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:484
 msgid "Overtime Slip created for {0} employee(s)"
 msgstr "Đã Tạo Phiếu Tăng Ca Cho {0} Nhân Viên"
 
@@ -7496,11 +7550,11 @@ msgstr "Việc Xác Nhận Phiếu Tăng Ca Đã Được Xếp Hàng. Có Thể
 msgid "Overtime Slip:{0} has been created between {1} and {2}"
 msgstr "Phiếu Tăng Ca:{0} Đã Được Tạo Từ {1} Đến {2}"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:487
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:486
 msgid "Overtime Slips Created"
 msgstr "Đã Tạo Các Phiếu Tăng Ca"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:519
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:518
 msgid "Overtime Slips submitted for {0} employee(s)"
 msgstr "Đã Xác Nhận Các Phiếu Tăng Ca Cho {0} Nhân Viên"
 
@@ -7601,6 +7655,10 @@ msgstr "Chính sách mật khẩu không được chứa dấu cách hoặc dấ
 msgid "Password policy for Salary Slips is not set"
 msgstr "Chính sách mật khẩu cho Phiếu Lương chưa được đặt"
 
+#: frontend/src/views/ForgotPassword.vue:74
+msgid "Password reset link has been sent to your email."
+msgstr ""
+
 #. Label of the pay_details_tab (Tab Break) field in DocType 'Job Opening'
 #. Label of the pay_details_section (Section Break) field in DocType 'Job
 #. Opening Template'
@@ -7626,7 +7684,7 @@ msgstr "Thanh Toán Qua Phiếu Chi"
 msgid "Pay via Salary Slip"
 msgstr "Thanh Toán Qua Phiếu Lương"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:187
+#: hrms/hr/doctype/expense_claim/expense_claim.py:190
 msgid "Payable Account is mandatory to submit an Expense Claim"
 msgstr "Tài Khoản Phải Trả là bắt buộc để xác nhận Yêu Cầu Chi Phí"
 
@@ -7879,7 +7937,7 @@ msgstr "Bảng Hỏi Đang Chờ"
 msgid "Percent Deduction"
 msgstr "Phần Trăm Khấu Trừ"
 
-#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:250
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:252
 msgid "Percent of CTC (%)"
 msgstr ""
 
@@ -7917,7 +7975,7 @@ msgstr "Vui Lòng Bật Chấm Công Tự Động Và Hoàn Thành Cài Đặt T
 msgid "Please Select Company First"
 msgstr "Vui Lòng Chọn Công Ty Trước"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:919
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:907
 msgid "Please assign a Salary Structure for Employee {0} applicable from or before {1} first"
 msgstr "Vui Lòng Gán Cấu Trúc Lương Cho Nhân Viên {0} Có Hiệu Lực Từ Hoặc Trước {1} Trước"
 
@@ -7937,9 +7995,21 @@ msgstr "Vui Lòng Xóa Nhân Viên {0} Để Hủy Tài Liệu Này"
 msgid "Please enable default incoming account before creating Daily Work Summary Group"
 msgstr "Vui Lòng Bật Tài Khoản Thu Mặc Định Trước Khi Tạo Nhóm Tổng Kết Công Việc Hàng Ngày"
 
+#: frontend/src/views/ForgotPassword.vue:109
+msgid "Please enter a valid email address"
+msgstr "Vui lòng nhập một địa chỉ email hợp lệ"
+
 #: hrms/hr/doctype/staffing_plan/staffing_plan.js:97
 msgid "Please enter the designation"
 msgstr "Vui Lòng Nhập Chức Danh"
+
+#: frontend/src/views/ForgotPassword.vue:104
+msgid "Please enter your email address"
+msgstr ""
+
+#: frontend/src/views/ChangePassword.vue:107
+msgid "Please fill all fields"
+msgstr ""
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.js:11
 msgid "Please fill in Employee, Posting Date, and Company before fetching overtime details."
@@ -7949,7 +8019,7 @@ msgstr "Vui Lòng Điền Nhân Viên, Ngày Đăng, Và Công Ty Trước Khi L
 msgid "Please reduce {0} to avoid shift time overlapping with itself"
 msgstr "Vui Lòng Giảm {0} Để Tránh Thời Gian Ca Trùng Lặp Với Chính Nó"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2251
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2241
 msgid "Please see attachment"
 msgstr "Vui Lòng Xem Tệp Đính Kèm"
 
@@ -8076,7 +8146,7 @@ msgstr "Vui Lòng Đặt Thành Phần Thu Nhập Cho Loại Nghỉ: {0}."
 msgid "Please set Leave Approver for the Employee: {0}"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:580
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:587
 msgid "Please set Payroll based on in Payroll settings"
 msgstr "Vui Lòng Đặt Lương Dựa Trên Trong Cài Đặt Lương"
 
@@ -8093,7 +8163,7 @@ msgstr "Vui Lòng Đặt Phạm Vi Ngày Nhỏ Hơn 90 Ngày."
 msgid "Please set account in Salary Component {0}"
 msgstr "Vui Lòng Đặt Tài Khoản Trong Thành Phần Lương {0}"
 
-#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:53
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:54
 msgid "Please set cost to company(CTC) for employee {0} in the {1}"
 msgstr ""
 
@@ -8121,7 +8191,7 @@ msgstr "Vui Lòng Đặt Mẫu Đánh Giá Cho Tất Cả {0} Hoặc Chọn Mẫ
 msgid "Please set the Company"
 msgstr "Vui Lòng Đặt Công Ty"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:385
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:376
 msgid "Please set the Date Of Joining for employee {0}"
 msgstr "Vui Lòng Đặt Ngày Vào Làm Cho Nhân Viên {0}"
 
@@ -8150,7 +8220,7 @@ msgstr "Vui Lòng Đặt {0} Cho Nhân Viên {1}"
 msgid "Please set {0} for the Employee: {1}"
 msgstr "Vui Lòng Đặt {0} Cho Nhân Viên: {1}"
 
-#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:306
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:312
 msgid "Please set {0} to get CTC report"
 msgstr ""
 
@@ -8171,11 +8241,11 @@ msgstr "Vui Lòng Thiết Lập Dãy Số Cho Chấm Công Qua Cài Đặt > Dã
 msgid "Please share your feedback to the training by clicking on 'Training Feedback' and then 'New'"
 msgstr "Vui Lòng Chia Sẻ Phản Hồi Của Bạn Về Đào Tạo Bằng Cách Nhấp Vào 'Phản Hồi Đào Tạo' Và Sau Đó 'Mới'"
 
-#: hrms/hr/doctype/interview/interview.py:223
+#: hrms/hr/doctype/interview/interview.py:225
 msgid "Please specify the job applicant to be updated."
 msgstr "Vui Lòng Chỉ Định Ứng Viên Cần Cập Nhật."
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:192
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:227
 msgid "Please specify {0} and {1} (if any), for the correct tax calculation in future salary slips."
 msgstr "Vui Lòng Chỉ Định {0} Và {1} (Nếu Có), Để Tính Thuế Chính Xác Trong Các Phiếu Lương Tương Lai."
 
@@ -8233,8 +8303,8 @@ msgstr "Ngăn Chặn Phê Duyệt Chi Phí Của Chính Mình Ngay Cả Khi Ngư
 msgid "Prevent self approval for leaves even if user has permissions"
 msgstr "Ngăn Chặn Phê Duyệt Nghỉ Phép Của Chính Mình Ngay Cả Khi Người Dùng Có Quyền"
 
-#: hrms/payroll/doctype/salary_structure/salary_structure.js:155
-#: hrms/payroll/doctype/salary_structure/salary_structure.js:193
+#: hrms/payroll/doctype/salary_structure/salary_structure.js:161
+#: hrms/payroll/doctype/salary_structure/salary_structure.js:199
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.js:89
 msgid "Preview Salary Slip"
 msgstr "Xem Trước Phiếu Lương"
@@ -8395,15 +8465,15 @@ msgstr "Mục đích & Số tiền"
 msgid "Purpose of Travel"
 msgstr "Mục đích chuyến đi"
 
-#: frontend/src/views/AppSettings.vue:128
+#: frontend/src/views/AppSettings.vue:152
 msgid "Push Notification permission denied"
 msgstr "Quyền thông báo đẩy bị từ chối"
 
-#: frontend/src/views/AppSettings.vue:96
+#: frontend/src/views/AppSettings.vue:121
 msgid "Push notifications disabled"
 msgstr "Thông báo đẩy bị tắt"
 
-#: frontend/src/views/AppSettings.vue:80
+#: frontend/src/views/AppSettings.vue:106
 msgid "Push notifications have been disabled on your site"
 msgstr "Thông báo đẩy đã bị tắt trên trang web của bạn"
 
@@ -8744,6 +8814,11 @@ msgstr "Trách nhiệm"
 msgid "Restrict Backdated Leave Application"
 msgstr "Hạn chế đơn nghỉ phép có ngày quá khứ"
 
+#. Label of a field in the job-application Web Form
+#: hrms/hr/web_form/job_application/job_application.json
+msgid "Resume Attachment"
+msgstr "Đính kèm sơ yếu lý lịch"
+
 #. Label of the resume_link (Data) field in DocType 'Employee Referral'
 #. Label of a field in the job-application Web Form
 #: hrms/hr/doctype/employee_referral/employee_referral.json
@@ -8869,11 +8944,11 @@ msgstr "Dòng #{0}: Thành phần {1} có các tùy chọn {2} và {3} được 
 msgid "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary Component {1}"
 msgstr "Dòng #{0}: Số tiền bảng chấm công sẽ ghi đè số tiền thành phần thu nhập cho Thành phần lương {1}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:844
+#: hrms/hr/doctype/expense_claim/expense_claim.py:847
 msgid "Row No {0}: Amount cannot be greater than the Outstanding Amount against Expense Claim {1}. Outstanding Amount is {2}"
 msgstr "Dòng số {0}: Số tiền không thể lớn hơn Số tiền còn nợ của Claim chi phí {1}. Số tiền còn nợ là {2}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:549
+#: hrms/hr/doctype/expense_claim/expense_claim.py:552
 msgid "Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2}"
 msgstr "Dòng {0}# Số tiền đã phân bổ {1} không thể lớn hơn số tiền chưa claim {2}"
 
@@ -8905,7 +8980,7 @@ msgstr "Dòng {0}: Số tiền đã trả {1} lớn hơn số tiền tích lũy 
 msgid "Row {0}: {1}"
 msgstr "Dòng {0}: {1}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:474
+#: hrms/hr/doctype/expense_claim/expense_claim.py:477
 msgid "Row {0}: {1} is required in the expenses table to book an expense claim."
 msgstr "Dòng {0}: {1} là bắt buộc trong bảng chi phí để đặt claim chi phí."
 
@@ -8996,7 +9071,7 @@ msgstr "Chi tiết lương"
 msgid "Salary Expectation"
 msgstr "Mức lương mong đợi"
 
-#: frontend/src/views/Profile.vue:200
+#: frontend/src/views/Profile.vue:201
 msgid "Salary Information"
 msgstr "Thông tin lương"
 
@@ -9103,11 +9178,11 @@ msgstr "Việc tạo phiếu lương đang được xếp hàng. Có thể mất
 msgid "Salary Slip not found."
 msgstr "Không tìm thấy phiếu lương."
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:419
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:410
 msgid "Salary Slip of employee {0} already created for this period"
 msgstr "Phiếu lương của nhân viên {0} đã được tạo cho kỳ này"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:425
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:416
 msgid "Salary Slip of employee {0} already created for time sheet {1}"
 msgstr "Phiếu lương của nhân viên {0} đã được tạo cho bảng chấm công {1}"
 
@@ -9170,7 +9245,7 @@ msgstr "Cấu trúc lương"
 #. Label of a Workspace Sidebar Item
 #: hrms/payroll/doctype/income_tax_slab/income_tax_slab.js:8
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.js:34
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.js:51
 #: hrms/payroll/workspace/payroll/payroll.json
 #: hrms/workspace_sidebar/payroll.json
 msgid "Salary Structure Assignment"
@@ -9180,7 +9255,7 @@ msgstr "Phân bổ cấu trúc lương"
 msgid "Salary Structure Assignment field"
 msgstr "Trường phân bổ cấu trúc lương"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:80
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:115
 msgid "Salary Structure Assignment for Employee already exists"
 msgstr "Phân bổ cấu trúc lương cho nhân viên đã tồn tại"
 
@@ -9188,7 +9263,7 @@ msgstr "Phân bổ cấu trúc lương cho nhân viên đã tồn tại"
 msgid "Salary Structure Assignment not found for employee {0} on date {1}"
 msgstr "Không tìm thấy phân bổ cấu trúc lương cho nhân viên {0} vào ngày {1}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:525
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:519
 msgid "Salary Structure Missing"
 msgstr "Thiếu cấu trúc lương"
 
@@ -9200,7 +9275,7 @@ msgstr "Cấu trúc lương phải được nộp trước khi nộp {0}"
 msgid "Salary Structure not assigned for employee {0} for date {1}"
 msgstr "Cấu trúc lương chưa được phân bổ cho nhân viên {0} cho ngày {1}"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:104
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:139
 msgid "Salary Structure {0} does not belong to company {1}"
 msgstr "Cấu trúc lương {0} không thuộc về công ty {1}"
 
@@ -9254,7 +9329,7 @@ msgstr "Các thành phần lương loại Quỹ Tổ Quốc, Quỹ Tổ Quốc B
 msgid "Salary components should be part of the Salary Structure."
 msgstr "Các thành phần lương phải là một phần của Cấu trúc lương."
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2805
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2662
 msgid "Salary slip emails have been enqueued for sending. Check {0} for status."
 msgstr "Email phiếu lương đã được xếp hàng để gửi. Kiểm tra {0} để biết trạng thái."
 
@@ -9271,7 +9346,7 @@ msgstr "Số tiền phê duyệt"
 msgid "Sanctioned Amount (Company Currency)"
 msgstr "Số tiền phê duyệt (Tiền tệ công ty)"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:573
+#: hrms/hr/doctype/expense_claim/expense_claim.py:576
 msgid "Sanctioned Amount cannot be greater than Claim Amount in Row {0}."
 msgstr "Số tiền phê duyệt không thể lớn hơn số tiền claim ở dòng {0}."
 
@@ -9413,7 +9488,7 @@ msgstr "Chọn người phê duyệt nghỉ phép tức là người phê duyệ
 msgid "Selected employee advance is not of employee {0}"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:542
+#: hrms/hr/doctype/expense_claim/expense_claim.py:545
 msgid "Selected employee advance is not of employee {}"
 msgstr ""
 
@@ -9441,7 +9516,7 @@ msgstr "Điểm tự chấm"
 msgid "Self-Study"
 msgstr "Tự học"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:171
+#: hrms/hr/doctype/expense_claim/expense_claim.py:174
 msgid "Self-approval for Expense Claims is not allowed"
 msgstr "Tự phê duyệt cho claim chi phí không được cho phép"
 
@@ -9483,6 +9558,10 @@ msgstr "Gửi nhắc phỏng vấn"
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Send Leave Notification"
 msgstr "Gửi thông báo nghỉ phép"
+
+#: frontend/src/views/ForgotPassword.vue:45
+msgid "Send Reset Link"
+msgstr ""
 
 #. Label of the sender_copy (Link) field in DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
@@ -9563,7 +9642,7 @@ msgstr "Đặt số dư mở đầu cho thu nhập và thuế từ công ty trư
 msgid "Set optional filters to fetch employees in the appraisee list"
 msgstr "Đặt bộ lọc tùy chọn để lấy nhân viên trong danh sách người được đánh giá"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:661
+#: hrms/hr/doctype/expense_claim/expense_claim.py:664
 msgid "Set the default account for the {0} {1}"
 msgstr "Đặt tài khoản mặc định cho {0} {1}"
 
@@ -9655,7 +9734,7 @@ msgstr "Lịch sử phân ca"
 msgid "Shift Assignment Tool"
 msgstr "Công cụ phân ca"
 
-#: hrms/hr/doctype/shift_request/shift_request.py:81
+#: hrms/hr/doctype/shift_request/shift_request.py:82
 msgid "Shift Assignment: {0} created for Employee: {1}"
 msgstr "Phân ca: {0} đã được tạo cho nhân viên: {1}"
 
@@ -9863,7 +9942,7 @@ msgstr "Hiển thị số dư nghỉ phép trong phiếu lương"
 msgid "Show Leaves Of All Department Members In Calendar"
 msgstr "Hiển thị nghỉ phép của tất cả thành viên phòng ban trong lịch"
 
-#: hrms/payroll/doctype/salary_structure/salary_structure.js:204
+#: hrms/payroll/doctype/salary_structure/salary_structure.js:210
 msgid "Show Salary Slip"
 msgstr "Hiển thị phiếu lương"
 
@@ -9875,7 +9954,7 @@ msgstr "Hiển thị"
 msgid "Sick Leave"
 msgstr "Nghỉ ốm"
 
-#: hrms/payroll/doctype/salary_structure/salary_structure.js:120
+#: hrms/payroll/doctype/salary_structure/salary_structure.js:126
 msgid "Single Assignment"
 msgstr "Phân bổ đơn"
 
@@ -9922,7 +10001,7 @@ msgstr "Bỏ qua chấm công tự động"
 msgid "Skipping Salary Structure Assignment for the following employees, as Salary Structure Assignment records already exists against them. {0}"
 msgstr "Bỏ qua phân bổ cấu trúc lương cho các nhân viên sau vì hồ sơ phân bổ cấu trúc lương đã tồn tại. {0}"
 
-#: hrms/api/roster.py:95
+#: hrms/api/roster.py:137
 msgid "Source and target shifts cannot be the same"
 msgstr "Ca nguồn và ca đích không thể giống nhau"
 
@@ -9984,7 +10063,7 @@ msgstr "Số tiền miễn thuế tiêu chuẩn"
 msgid "Standard Working Hours"
 msgstr "Giờ làm việc tiêu chuẩn"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1889
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1879
 msgid "Start and end dates not in a valid Payroll Period, cannot calculate {0}."
 msgstr "Ngày bắt đầu và kết thúc không nằm trong kỳ lương hợp lệ, không thể tính {0}."
 
@@ -10128,11 +10207,12 @@ msgstr "Xem tóm tắt"
 msgid "Sync {0}"
 msgstr "Đồng bộ {0}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1400
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1390
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:393
 msgid "Syntax error"
 msgstr "Lỗi cú pháp"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2628
+#: hrms/payroll/doctype/income_tax_slab/income_tax_slab.py:126
 msgid "Syntax error in condition: {0} in Income Tax Slab"
 msgstr "Lỗi cú pháp trong điều kiện: {0} trong Bậc thuế thu nhập"
 
@@ -10154,7 +10234,7 @@ msgstr "Thuế & Phúc lợi"
 #. Label of the tax_deducted_till_date (Currency) field in DocType 'Salary
 #. Structure Assignment'
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:196
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:231
 msgid "Tax Deducted Till Date"
 msgstr "Thuế đã khấu trừ đến ngày"
 
@@ -10199,7 +10279,7 @@ msgstr "Thuế trên phúc lợi linh hoạt"
 #. Label of the taxable_earnings_till_date (Currency) field in DocType 'Salary
 #. Structure Assignment'
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:195
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:230
 msgid "Taxable Earnings Till Date"
 msgstr "Thu nhập chịu thuế đến ngày"
 
@@ -10346,7 +10426,7 @@ msgstr "Thời gian trước giờ bắt đầu ca mà Employee Check-in đượ
 msgid "Theory"
 msgstr "Lý thuyết"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:577
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:584
 msgid "There are more holidays than working days this month."
 msgstr "Có nhiều ngày lễ hơn ngày làm việc trong tháng này."
 
@@ -10364,7 +10444,7 @@ msgstr "Không có vị trí trống trong kế hoạch nhân sự {0}"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:82
 #: hrms/payroll/doctype/employee_incentive/employee_incentive.py:39
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:241
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:457
 msgid "There is no Salary Structure assigned to {0}. First assign a Salary Structure."
 msgstr "Không có Cấu trúc lương được phân bổ cho {0}. Trước tiên hãy phân bổ Cấu trúc lương."
 
@@ -10394,15 +10474,18 @@ msgstr "Ngày nghỉ bù này sẽ có hiệu lực từ {0}."
 msgid "This employee already has a log with the same timestamp.{0}"
 msgstr "Nhân viên này đã có log với cùng thời gian.{0}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1408
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1398
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:401
 msgid "This error can be due to invalid formula or condition."
 msgstr "Lỗi này có thể do công thức hoặc điều kiện không hợp lệ."
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1401
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1391
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:394
 msgid "This error can be due to invalid syntax."
 msgstr "Lỗi này có thể do cú pháp không hợp lệ."
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1394
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1384
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:387
 msgid "This error can be due to missing or deleted field."
 msgstr "Lỗi này có thể do trường bị thiếu hoặc đã xóa."
 
@@ -10731,7 +10814,7 @@ msgstr "Tổng số tiền trả góp"
 msgid "Total Net Pay"
 msgstr "Tổng lương net"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:228
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:230
 msgid "Total Non-Billed Hours"
 msgstr "Tổng giờ không tính tiền"
 
@@ -10797,7 +10880,7 @@ msgstr "Tổng điểm"
 msgid "Total Self Score"
 msgstr "Tổng điểm tự chấm"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:567
+#: hrms/hr/doctype/expense_claim/expense_claim.py:570
 msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr "Tổng số tiền tạm ứng không thể lớn hơn tổng số tiền phê duyệt"
 
@@ -10857,7 +10940,7 @@ msgstr "Tổng trọng số cho tất cả {0} phải bằng 100. Hiện tại l
 msgid "Total working Days Per Year"
 msgstr "Tổng số ngày làm việc mỗi năm"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:262
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:253
 msgid "Total working hours should not be greater than max working hours {0}"
 msgstr "Tổng số giờ làm việc không nên lớn hơn số giờ làm việc tối đa {0}"
 
@@ -11137,7 +11220,7 @@ msgstr "Giao dịch chưa thanh toán"
 msgid "Unsubmitted Appraisals"
 msgstr "Đánh giá chưa nộp"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:251
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:253
 msgid "Untracked Hours"
 msgstr "Giờ chưa theo dõi"
 
@@ -11190,11 +11273,15 @@ msgstr "Cập nhật trạng thái"
 msgid "Update Tax"
 msgstr "Cập nhật thuế"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:181
+#: hrms/hr/doctype/attendance_request/attendance_request.py:200
+msgid "Updated Status for Other Half from {0} to {1} for date {2} in the attendance record {3}"
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:183
 msgid "Updated status from {0} to {1} for date {2} in the attendance record {3}"
 msgstr "Đã cập nhật trạng thái từ {0} thành {1} cho ngày {2} trong hồ sơ chấm công {3}"
 
-#: hrms/hr/doctype/interview/interview.py:230
+#: hrms/hr/doctype/interview/interview.py:232
 msgid "Updated the Job Applicant status to {0}"
 msgstr "Đã cập nhật trạng thái ứng viên thành {0}"
 
@@ -11557,7 +11644,7 @@ msgstr "Bạn không có mặt đủ ngày giữa các ngày yêu cầu nghỉ b
 msgid "You can not define multiple slabs if you have a slab with no lower and upper limits."
 msgstr "Bạn không thể định nghĩa nhiều bậc nếu bạn có bậc không có giới hạn trên và dưới."
 
-#: hrms/hr/doctype/shift_request/shift_request.py:102
+#: hrms/hr/doctype/shift_request/shift_request.py:103
 msgid "You can not request for your Default Shift: {0}"
 msgstr "Bạn không thể yêu cầu ca mặc định của bạn: {0}"
 
@@ -11569,13 +11656,17 @@ msgstr "Bạn chỉ có thể lên kế hoạch cho tối đa {0} vị trí và 
 msgid "You can only submit Leave Encashment for a valid encashment amount"
 msgstr "Bạn chỉ có thể nộp thanh toán nghỉ phép cho số tiền hợp lệ"
 
-#: hrms/api/__init__.py:741
+#: hrms/api/__init__.py:751
 msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."
 msgstr "Bạn chỉ có thể tải lên tài liệu JPG, PNG, PDF, TXT hoặc Microsoft."
 
 #: hrms/payroll/doctype/payroll_correction/payroll_correction.py:78
 msgid "You cannot reverse more than the total LWP days {0}. You have already reversed {1} days for this employee."
 msgstr "Bạn không thể đảo ngược nhiều hơn tổng số ngày LWP {0}. Bạn đã đảo ngược {1} ngày cho nhân viên này."
+
+#: hrms/hr/doctype/shift_request/shift_request.py:165
+msgid "You do not have permission to change the Status of a Shift Request."
+msgstr ""
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:458
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:621
@@ -11626,7 +11717,11 @@ msgstr "Bạn chỉ có mặt nửa ngày vào {}. Không thể đăng ký ngh�
 msgid "Your Interview session is rescheduled from {0} {1} - {2} to {3} {4} - {5}"
 msgstr "Phiên phỏng vấn của bạn đã được đổi lịch từ {0} {1} - {2} sang {3} {4} - {5}"
 
-#: frontend/src/views/Login.vue:63
+#: frontend/src/views/ChangePassword.vue:85
+msgid "Your password has been updated."
+msgstr ""
+
+#: frontend/src/views/Login.vue:22
 msgid "Your password has expired. Please reset your password to continue"
 msgstr "Mật khẩu của bạn đã hết hạn. Vui lòng đặt lại mật khẩu để tiếp tục"
 
@@ -11662,7 +11757,7 @@ msgstr "đã tạo"
 msgid "here"
 msgstr "tại đây"
 
-#: frontend/src/views/Login.vue:16
+#: frontend/src/views/Login.vue:46
 msgid "johndoe@mail.com"
 msgstr "nguyenvan@mail.com"
 
@@ -11686,14 +11781,6 @@ msgstr "đã xử lý"
 #: hrms/hr/doctype/attendance_request/attendance_request.py:68
 msgid "reason"
 msgstr "lý do"
-
-#: hrms/www/jobs/index.html:122
-msgid "result"
-msgstr "kết quả"
-
-#: hrms/www/jobs/index.html:122
-msgid "results"
-msgstr "kết quả"
 
 #: hrms/public/js/templates/feedback_summary.html:16
 msgid "review"
@@ -11733,11 +11820,11 @@ msgstr "{0} & {1}"
 msgid "{0} & {1} more"
 msgstr "{0} & {1} khác"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:513
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:512
 msgid "{0} : {1}"
 msgstr "{0} : {1}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2624
+#: hrms/payroll/doctype/income_tax_slab/income_tax_slab.py:122
 msgid "{0} <br> This error can be due to missing or deleted field."
 msgstr "{0} <br> Lỗi này có thể do trường bị thiếu hoặc đã xóa."
 
@@ -11757,7 +11844,7 @@ msgstr "Thiếu {0}"
 msgid "{0} Row #{1}: Formula is set but {2} is disabled for the Salary Component {3}."
 msgstr "{0} Dòng #{1}: Công Thức Đã Được Đặt Nhưng {2} Bị Vô Hiệu Hóa Cho Thành Phần Lương {3}."
 
-#: hrms/payroll/doctype/salary_structure/salary_structure.js:319
+#: hrms/payroll/doctype/salary_structure/salary_structure.js:325
 msgid "{0} Row #{1}: {2} needs to be enabled for the formula to be considered."
 msgstr "{0} Dòng #{1}: {2} Cần Được Bật Để Công Thức Được Xem Xét."
 
@@ -11844,7 +11931,7 @@ msgstr "{0} Ngày Nghỉ Đã Được Phân Bổ Thủ Công Bởi {1} Vào {2}
 msgid "{0} must be submitted"
 msgstr "{0} Phải Được Xác Nhận"
 
-#: hrms/hr/doctype/goal/goal.py:221
+#: hrms/hr/doctype/goal/goal.py:223
 msgid "{0} of {1} Completed"
 msgstr "{0} Của {1} Đã Hoàn Thành"
 
@@ -11880,7 +11967,7 @@ msgstr "{0} {1} {2}?"
 msgid "{0}. Check error log for more details."
 msgstr "{0}. Kiểm Tra Nhật Ký Lỗi Để Biết Thêm Chi Tiết."
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2285
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2275
 msgid "{0}: Employee email not found, hence email not sent"
 msgstr "{0}: Không Tìm Thấy Email Nhân Viên, Do Đó Email Không Được Gửi"
 
